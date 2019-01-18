@@ -1,0 +1,16 @@
+{
+  "name": "fabric-ui-exp",
+  "version": "1.0.0",
+  "description": "Test Fabric",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manh Le",
+  "license": "ISC",
+  "dependencies": {
+    "office-ui-fabric-react": "^6.127.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
