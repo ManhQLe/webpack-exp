@@ -1,16 +1,26 @@
 {
-  "name": "fabric-ui-exp",
-  "version": "1.0.0",
-  "description": "Test Fabric",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Manh Le",
-  "license": "ISC",
-  "dependencies": {
-    "office-ui-fabric-react": "^6.127.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
-  }
+	"name": "fabric-ui-exp",
+	"version": "1.0.0",
+	"description": "Test Fabric",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Manh Le",
+	"license": "ISC",
+	"dependencies": {
+		"office-ui-fabric-react": "^6.127.0",
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.2.2",
+		"@babel/preset-env": "^7.2.3",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.5",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+		"live-server": "^1.2.1",
+		"webpack": "^4.28.4",
+		"webpack-cli": "^3.2.1"
+	}
 }
