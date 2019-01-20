@@ -1,10 +1,15 @@
 const path = require("path")
 
 module.exports = {
-    entry: './srs/tsx/main.jsx',
+    context: path.resolve(__dirname),
+    entry: {
+        main: './src/tsx/main.jsx',
+        sub: './src/tsx/sub.jsx',
+        nav: './src/tsx/nav.jsx'
+    },
     output: {
         path: path.resolve(__dirname, 'build', 'js'),
-        filename: 'main-build.js'
+        filename: '[name].js'
     },
    
     externals:[

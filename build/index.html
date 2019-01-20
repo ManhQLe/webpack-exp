@@ -9,9 +9,20 @@
     <script src="js/react.production.min.js"></script>
     <script src="js/react-dom.production.min.js"></script>
     <script src="js/office-ui-fabric-react.min.js"></script>
+    
 </head>
 <body>
+    <div id="nav"></div>
     <div id="main"></div>
-    <script src="js/main-build.js"></script>    
+    <div id="sub"></div>
+    <div id="three"></div>
+    <script src="js/main.js"></script>
+    <script src="js/sub.js"></script>
+    <script src="js/nav.js"></script>
+    <script>
+        let b = document.createElement("PrimaryButton");
+        b.innerHTML = "TEST"
+        document.getElementById("three").innerHTML = "<PrimaryButton>Inner HTML</PrimaryButton>"
+    </script>
 </body>
 </html>
